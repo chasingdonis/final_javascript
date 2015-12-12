@@ -138,6 +138,9 @@ background-size: 100%;
 background-repeat: no-repeat;
 height: 352px;
 }
+.subject.design a:hover {
+  color: #fff;
+}
 
 .subject.interactive {
 background-image: url("img/nature.png");
