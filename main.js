@@ -26,8 +26,9 @@ var par = $('.content');
 
 $( "h3" ).click(function() {
    $(par).slideToggle('slow');
-  e.preventDefault();
+   return false;
 });
+    
     
 var $animation_elements = $('.animation-element');
 var $window = $(window);
